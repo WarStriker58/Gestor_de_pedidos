@@ -23,6 +23,8 @@ INSTALLED_APPS = [
 
     # Local
     'core',
+
+    'productos',
 ]
 
 MIDDLEWARE = [

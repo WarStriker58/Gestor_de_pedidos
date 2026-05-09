@@ -1,0 +1,63 @@
+[
+    {
+        "model": "productos.productcategory",
+        "pk": 1,
+        "fields": { "nombre": "Electrónica" }
+    },
+    {
+        "model": "productos.productcategory",
+        "pk": 2,
+        "fields": { "nombre": "Hogar" }
+    },
+    {
+        "model": "productos.productcategory",
+        "pk": 3,
+        "fields": { "nombre": "Ropa" }
+    },
+
+    {
+        "model": "productos.product",
+        "pk": 1,
+        "fields": {
+            "nombre": "Smartphone X1",
+            "precio": "899.00",
+            "categoria": 1
+        }
+    },
+    {
+        "model": "productos.product",
+        "pk": 2,
+        "fields": {
+            "nombre": "Audífonos Bluetooth",
+            "precio": "120.00",
+            "categoria": 1
+        }
+    },
+    {
+        "model": "productos.product",
+        "pk": 3,
+        "fields": {
+            "nombre": "Cafetera Automática",
+            "precio": "300.00",
+            "categoria": 2
+        }
+    },
+    {
+        "model": "productos.product",
+        "pk": 4,
+        "fields": {
+            "nombre": "Polera Negra Talla M",
+            "precio": "45.00",
+            "categoria": 3
+        }
+    },
+    {
+        "model": "productos.product",
+        "pk": 5,
+        "fields": {
+            "nombre": "Plancha a Vapor",
+            "precio": "80.00",
+            "categoria": 2
+        }
+    }
+]
